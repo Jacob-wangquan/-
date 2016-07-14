@@ -1,0 +1,382 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>绿宝宝</title>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/simplefoucs.js"></script>
+<script type="text/javascript" src="js/jquery.luara.0.0.1.min.js"></script>
+<script type="text/javascript" src="js/flash_n.js"></script>
+<script type="text/javascript" src="js/top.js"></script>
+<script type="text/javascript" src="js/select_new.js"></script>
+<!--<script type="text/javascript" src="js/lose.js"></script>-->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<style>
+.rent_banner_box{ position:relative;}
+.rent_banner_box_p1,.rent_banner_box_p2,.rent_banner_box_p3{ position:absolute; opacity:0; margin:0;}
+.rent_banner_box_p1{ left:500px;top:140px;}
+.rent_banner_box_p2{ left:550px;top:210px;}
+.rent_banner_box_p3{ left:600px; top:300px;}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="top">
+	<div class="top_box">
+    	<p class="top_notice">最新公告：绿泽感恩季·感谢您一路相伴！</p>
+        <p class="top_right"><a href="#">免费注册</a>|<a href="#">登录</a>|<a href="#">帮助中心</a>|<a href="#">收藏本站</a></p>
+    </div>
+</div>
+<div class="header">
+	<div class="header_box">
+    	<div class="logo"><img src="images/logo.gif" /></div>
+       <div class="search_box">
+        	<div class="pr">
+                  <div class="div_select clearfix">
+                    <div class="text1" id="text1">植物养护</div>
+                    <span class="select_dropdown"></span>
+                  </div>
+                  <ul class="select_ul" id="ul_select1">
+                    <li>植物学堂</li>
+                    <li>植物租赁</li>
+                    <li>植物养护</li>
+                  </ul>
+            </div>
+            <input type="text" id="text_clear" class="search" value="" />
+            <input type="submit" class="search_btn" value="搜索" />
+        </div>
+    </div>
+</div>
+<div class="nav">
+	<div class="nav_box">
+    	<ul>
+        	<li><a href="index.html">首页</a></li>
+            <li><a href="house.html">小宝之家</a></li>
+            <li><a class="on" href="rent.html">植物租赁</a></li>
+            <li><a href="garden.html">家庭园艺</a></li>
+            <li><a href="private.html">私人订制</a></li>
+            <li><a href="cases.html">案例展示</a></li>
+            <li><a href="school.html">植物学堂</a></li>
+            <li><a href="shop.html">植物商城</a></li>
+        </ul>
+        <div class="nav_mobile"><img src="images/nav_mobile.png" /><a href="#">手机绿宝宝</a></div>
+    </div>
+</div>
+
+<div class="rent_banner">
+	<div class="rent_banner_box">
+    	<p class="rent_banner_box_p1">拒绝同质化</p>
+        <p class="rent_banner_box_p2">低端植物租赁</p>
+        <p class="rent_banner_box_p3">以规模求效益，以品质求生存，绿宝宝致力于品质植物租赁旗舰</p>
+        <p class="rent_banner_box_p4" style=" position:absolute; left:30px; top:384px; margin:0;"><a href="#">+&nbsp;查看案例</a></p>
+    </div>
+</div>
+
+
+<div class="rent_headache">
+	<div class="rent_headache_box">
+    	<p class="rent_headache_box_p1">植物租赁的那些头疼事</p>
+        <p class="rent_headache_box_p2">如果你也被以下的问题困扰？那就快来找小宝吧！</p>
+        <img src="images/rent_headache.jpg" />
+    </div>
+</div>
+
+<div class="rent_ln">
+	<div class="rent_ln_box">
+    	<p class="rent_headache_box_p1">绿宝宝租赁核心理念</p>
+        <p class="rent_headache_box_p2">100%租赁=10%绿植+20%花盆+30%创意+40%服务</p>
+        
+        <div class="case" style=" height:600px; margin-top:50px;"> 	
+        	  	
+              <div class="title_rent">
+                   <!-- <div class="rent_four_good"><img src="images/rent_four_good.png" /></div>-->
+                    <ul class="title_rent-list">
+                        <li class="off_on">植物</li>
+                        <li>花盆</li>
+                        <li>创意</li>
+                        <li>服务</li>
+                        <p class="p_y"></p>
+                        <b><img src="images/sanjiao_2.png" /></b>
+                        <div class="rent_product-wrap">
+                            <div class="rent_product show">
+                             	<img src="images/rent_fuwu_1.png" />
+                                <div class="rent_product_pn">
+                                    <p class="rent_product_p1">我的苗圃你做主！花卉绿植任你数！</p>
+                                    <p class="rent_product_p2">绿植：公司拥有560亩苗圃园，种类多、品种全，同时保证了绿植花卉的新鲜度，节省物流、运输成本，从而更加经济实惠，性价比高于市场。</p>
+                                    <p class="rent_product_p3">总结：专属绿植仓储，满足客户所有需求。</p>
+                                </div>
+                                <div class="rent_fuwu_pic"><img src="images/fuwu_1_1.jpg" /><img src="images/fuwu_1_2.jpg" /><img src="images/fuwu_1_3.jpg" /><img src="images/fuwu_1_4.jpg" /></div>
+                            </div>
+                            
+                            <div class="rent_product">
+                                <img src="images/rent_fuwu_2.png" />
+                                <div class="rent_product_pn">
+                                    <p class="rent_product_p1">绿植高大上，花盆更时尚</p>
+                                    <p class="rent_product_p2">花盆：“好马配好鞍”，针对每株花卉绿植，定制符合生长和美观的花盆，一方面有利于植物的生长，土壤水分的吸收，一方面根据具体空间、具体花卉搭配定制，为客户提供个性化的花卉盆景。</p>
+                                    <p class="rent_product_p3">总结：完美搭配绿植，精彩绿色空间</p>
+                                </div>
+                                <div class="rent_fuwu_pic"><img src="images/fuwu_2_1.jpg" /><img src="images/fuwu_2_2.jpg" /><img src="images/fuwu_2_3.jpg" /><img src="images/fuwu_2_4.jpg" /></div>
+                            </div>
+                            
+                            <div class="rent_product">
+                                <img src="images/rent_fuwu_3.png" />
+                                <div class="rent_product_pn">
+                                    <p class="rent_product_p1">我的苗圃你做主！花卉绿植任你数！</p>
+                                    <p class="rent_product_p2">绿植：公司拥有560亩苗圃园，种类多、品种全，同时保证了绿植花卉的新鲜度，节省物流、运输成本，从而更加经济实惠，性价比高于市场。</p>
+                                    <p class="rent_product_p3">总结：专属绿植仓储，满足客户所有需求。</p>
+                                </div>
+                                <div class="rent_fuwu_pic"><img src="images/fuwu_3_1.jpg" /><img src="images/fuwu_3_2.jpg" /><img src="images/fuwu_3_3.jpg" /><img src="images/fuwu_3_4.jpg" /></div>
+                            </div>
+                            
+                            <div class="rent_product">
+                                <img src="images/rent_fuwu_4.png" />
+                                <div class="rent_product_pn">
+                                    <p class="rent_product_p1">我的苗圃你做主！花卉绿植任你数！</p>
+                                    <p class="rent_product_p2">绿植：公司拥有560亩苗圃园，种类多、品种全，同时保证了绿植花卉的新鲜度，节省物流、运输成本，从而更加经济实惠，性价比高于市场。</p>
+                                    <p class="rent_product_p3">总结：专属绿植仓储，满足客户所有需求。</p>
+                                </div>
+                                <div class="rent_fuwu_pic"><img src="images/fuwu_4_1.jpg" /><img src="images/fuwu_4_2.jpg" /><img src="images/fuwu_4_3.jpg" /><img src="images/fuwu_4_4.jpg" /></div>
+                            </div>
+                            
+                        </div>
+                    </ul>
+                </div>
+         </div>
+<script>
+$(function(){	
+	$('.title_rent-list li').mouseover(function(){
+		var liindex = $('.title_rent-list li').index(this);
+		$(this).addClass('off_on').siblings().removeClass('off_on');
+		$('.rent_product-wrap div.rent_product').eq(liindex).fadeIn(500).siblings('div.rent_product').hide();
+		var liWidth = $('.title_rent-list li').width();
+		$('.case .title_rent-list .p_y').stop(false,true).animate({'left' : liindex * liWidth + 'px'},500);
+		$('.case .title_rent-list b').stop(false,true).animate({'left' : liindex * liWidth + 'px'},500);
+	});
+});
+
+</script>        
+        
+    </div>
+</div>
+
+<div class="rent_lc">
+	<div class="rent_lc_box">
+    	<p class="rent_headache_box_p1" style="filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity: 0; opacity: 0;">服务流程 一目了然</p>
+        <p class="rent_headache_box_p2" style="filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity: 0; opacity: 0;">在服务中创造快乐，在服务中传播快乐.服务只有起点，满意没有终点</p>
+        <div class="rent_lc_six"  style="filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity: 0; opacity: 0;">
+        	<ul>
+            	<li>
+                	<img src="images/rent_lc_1.jpg" />
+                    <div class="rent_lc_text">
+                    	<div class="rent_lc_text_left">
+                        	<p>在线倾听</p>
+                            <p>了解需求</p>
+                        </div>
+                        <div  class="rent_lc_text_right">
+                        	<p>&nbsp;></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                	<img src="images/rent_lc_2.jpg" />
+                    <div class="rent_lc_text">
+                    	<div class="rent_lc_text_left">
+                        	<p>现场勘查</p>
+                            <p>精选花木</p>
+                        </div>
+                        <div  class="rent_lc_text_right">
+                        	<p>&nbsp;></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                	<img src="images/rent_lc_3.jpg" />
+                    <div class="rent_lc_text">
+                    	<div class="rent_lc_text_left">
+                        	<p>设计方案</p>
+                            <p>与众不同</p>
+                        </div>
+                        <div  class="rent_lc_text_right">
+                        	<p>&nbsp;></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                	<img src="images/rent_lc_4.jpg" />
+                    <div class="rent_lc_text">
+                    	<div class="rent_lc_text_left">
+                        	<p>签到合同</p>
+                            <p>效果呈现</p>
+                        </div>
+                        <div  class="rent_lc_text_right">
+                        	<p>&nbsp;></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                	<img src="images/rent_lc_5.jpg" />
+                    <div class="rent_lc_text">
+                    	<div class="rent_lc_text_left">
+                        	<p>日常清洁</p>
+                            <p>花木养护</p>
+                        </div>
+                        <div  class="rent_lc_text_right">
+                        	<p>&nbsp;></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                	<img src="images/rent_lc_6.jpg" />
+                    <div class="rent_lc_text">
+                    	<div class="rent_lc_text_left">
+                        	<p>花木更换</p>
+                            <p>售后保障</p>
+                        </div>
+                        <div  class="rent_lc_text_right">
+                        	<p>&nbsp;></p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+	$(window).scroll(function(){
+   var topH = $(window).scrollTop()+($(window).height()/2);
+ 
+    if(topH>300){
+		$(".rent_banner_box_p1").animate({"left":"30px","opacity":"1"},2000);
+		$(".rent_banner_box_p2").animate({"left":"30px","opacity":"1"},2000);
+		$(".rent_banner_box_p3").animate({"left":"30px","opacity":"1"},2000);		
+		}
+	if(topH>2000){
+		$(".rent_headache_box_p1").animate({"opacity":"1"},2000);
+		}
+	if(topH>2200){
+		$(".rent_headache_box_p2").animate({"opacity":"1"},2000);
+		}
+	if(topH>2400){
+		$(".rent_lc_six").animate({"opacity":"1"},2000);
+		}			
+});
+
+</script>
+
+<div class="rent_number">
+	<div class="rent_number_box">
+    	<div class="rent_number_box_left">
+        	<p class="rent_box_left_p1">绿宝宝租赁，领衔合肥花卉租赁行业！</p>
+            <p class="rent_box_left_p2">想要租赁绿植，只要轻松一个电话，小宝为您一站式搞定！</p>
+            <p class="rent_box_left_p3">400-0551-410</p>
+        </div>
+        <div class="rent_number_box_right"><img src="images/rent_number_box_right.jpg" /></div>
+    </div>
+</div>
+<div class="rent_clients">
+	<div class="rent_clients_box"> 
+    	<p class="height50"></p>
+    	<p class="rent_headache_box_p1">哪些客户选择了绿宝宝？</p>
+        <p class="rent_headache_box_p2">因为专业，所以信赖！</p>
+        <img src="images/rent_clients.jpg" />
+    </div>
+</div>
+<div class="rent_cases">
+	<div class="rent_cases_box"> 
+    	<p class="rent_headache_box_p1">他们的故事 他们的案例</p>
+        <p class="rent_headache_box_p2">用专业的技术与服务，将绿色带进每一个人的生活空间！</p>
+        <p class="height50"></p>
+        <div class="rent_cases_two">
+        	<div class="rent_cases_two_left">
+            	<div  class="rent_cases_left_left"><img src="images/rent_cases_two_left.jpg" /></div>
+                <div  class="rent_cases_left_right">
+                	<p style=" font-size:16px; color:#333; line-height:40px;">合肥网新科技</p>
+                    <p  style=" font-size:12px; color:#999; margin-bottom:30px;">2015-12-18   |   网新科技</p>
+                    <div class="rent_pp">
+                    	<div class="rent_pp_left"><img src="images/rent_pp_left.jpg" /><P>设计师</P></div>
+                        <p  class="rent_pp_right">设计的核心是一种创造行为，要求新、求异、求变。否则设计将不能称之为设计。</p>
+                    </div>
+                    <p  class="rent_banner_box_p4 rent_left_btn"><a href="#">+&nbsp;查看案例</a></p>
+                </div>
+            </div>
+            <div class="rent_cases_two_left">
+            	<div  class="rent_cases_left_left"><img src="images/rent_cases_two_left_1.jpg" /></div>
+                <div  class="rent_cases_left_right">
+                	<p style=" font-size:16px; color:#333; line-height:40px;">合肥网新科技</p>
+                    <p  style=" font-size:12px; color:#999; margin-bottom:30px;">2015-12-18   |   网新科技</p>
+                    <div class="rent_pp">
+                    	<div class="rent_pp_left"><img src="images/rent_pp_left.jpg" /><P>设计师</P></div>
+                        <p  class="rent_pp_right">设计的核心是一种创造行为，要求新、求异、求变。否则设计将不能称之为设计。</p>
+                    </div>
+                    <p  class="rent_banner_box_p4"><a href="#">+&nbsp;查看设计师</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<p class="height50"></p>
+
+<div class="footer_bar">
+	<p class="height50"></p>
+	<div class="footer">
+    	<div class="footer_left">
+        	<div class="footer_title">绿宝宝园艺</div>
+            <p class="footer_title_line"></p>
+            <p class="footer_title_brief">合肥绿宝宝景观园林工程有限公司业务已全面涵盖园艺花艺两大行业，其中，绿植租赁、家庭
+园艺、家庭花艺、婚庆花艺为公司的主打业务。
+</p>
+            <div class="four_midea"><a class="footer_qq" href="#"></a><a class="footer_wx" href="#"></a><a class="footer_xl" href="#"></a><a class="footer_tx" href="#"></a></div>
+        </div>
+        <div class="footer_middle">
+        	<div class="footer_title">关注微信 </div>
+            <p class="footer_title_line"></p>
+            <div class="big_wx"><img src="images/big_wx.jpg" /></div>
+        </div>
+        <div class="footer_right">
+        	<div class="footer_title">联系我们</div>
+            <p class="footer_title_line"></p>
+            <p class="footer_number">400-0551-410</p>
+            <p class="footer_number_brief">（24小时免费咨询热线）</p>
+            <p class="footer_ardress">合肥市蜀山区拓基广场c座2805</p>
+            <p class="footer_email">gupiaoa@163.com</p>
+        </div>
+    </div>
+    <p class="height80 clear"></p>
+    <div class="friend_link">
+         <div class="friend_link_box">   
+            <p class="fri">友情链接：<a href="#">安企金融</a> <a href="#">第一网贷资讯</a><a href="#">网贷动态</a><a href="#">中信银行信用卡</a><a href="#">安徽省策划协会</a><a href="#">贵金属交易</a><a href="#">互联网金融媒体</a>       </p>
+            <p class="copyright">Copyright © 2009-2012 绿泽集团 All Rights Reserved  </p>
+         </div>
+    </div>
+</div>
+
+
+<div class="floating_ck">
+	<dl>
+    	<dt></dt>
+        <dd class="consult">
+        	<div class="floating_left"><a href="#">在线咨询</a></div>
+        </dd>
+        <dd class="words">
+            <div class="floating_left"><a href="#">预约设计</a></div>
+        </dd>
+        <dd class="quote">
+        	<span>关注微信</span>
+            <div class="floating_left"><a href="#">关注微信</a></div>
+        </dd>
+        <dd class="return">
+        	<span onClick="gotoTop();return false;"></span>
+            <div class="floating_left" onClick="gotoTop();return false;"><a href="#">返回顶部</a></div>
+        </dd>
+    </dl>
+</div>
+
+</body>
+</html>

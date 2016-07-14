@@ -1,0 +1,489 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>绿宝宝</title>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!--<script type="text/javascript" src="js/simplefoucs.js"></script>-->
+<script type="text/javascript" src="js/select_new.js"></script>
+<script type="text/javascript" src="js/flash_n.js"></script>
+<!--<script type="text/javascript" src="js/lose.js"></script>-->
+<script type="text/javascript" src="js/top.js"></script>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="top">
+	<div class="top_box">
+    	<p class="top_notice">最新公告：绿泽感恩季·感谢您一路相伴！</p>
+        <p class="top_right"><a href="#">免费注册</a>|<a href="#">登录</a>|<a href="#">帮助中心</a>|<a href="#">收藏本站</a></p>
+    </div>
+</div>
+<div class="header">
+	<div class="header_box">
+    	<div class="logo"><img src="images/logo.gif" /></div>
+        <div class="search_box">
+        	<div class="pr">
+              <div class="div_select clearfix">
+                <div class="text1" id="text1">植物养护</div>
+                <span class="select_dropdown"></span>
+              </div>
+              <ul class="select_ul" id="ul_select1">
+                <li>植物学堂</li>
+                <li>植物租赁</li>
+                <li>植物养护</li>
+              </ul>
+            </div>
+            <input type="text" id="text_clear" class="search" value="" />
+            <input type="submit" class="search_btn" value="搜索" />
+        </div>
+    </div>
+</div>
+<div class="nav">
+	<div class="nav_box">
+    	<ul>
+        	<li><a class="on" href="index.html">首页</a></li>
+            <li><a href="house.html">小宝之家</a></li>
+            <li><a href="rent.html">植物租赁</a></li>
+            <li><a href="garden.html">家庭园艺</a></li>
+            <li><a href="private.html">私人订制</a></li>
+            <li><a href="cases.html">案例展示</a></li>
+            <li><a href="school.html">植物学堂</a></li>
+            <li><a href="shop.html">植物商城</a></li>
+        </ul>
+        <div class="nav_mobile"><img src="images/nav_mobile.png" /><a href="#">手机绿宝宝</a></div>
+    </div>
+</div>
+<p class="height20"></p>
+<div class="banner">
+	<div class="banner_box">
+    <!-- Slideshow -->
+    	<div class="bannerbox">
+        
+        
+        <span class="banner_span1" onselectstart="return false"></span><!--点击多次不会选中span-->
+        <span  class="banner_span2" onselectstart="return false"></span>
+        <a href="#"><img src="images/index_banner.jpg"><a>
+        <a href="#"><img src="images/index_banner2.jpg"></a>
+        <a href="#"><img src="images/index_banner3.jpg"></a>
+        
+        <script>//练习数的递增或递减
+        $(".bannerbox img").hide().eq(0).show();
+        var n=0;
+        $(".banner_span1").click(function(){
+            if(n<$(".bannerbox img").length-1){
+            n=n+1;}
+            else{n=0;}
+            //document.title=n;
+            $(".bannerbox img").hide().eq(n).show();
+            })
+        $(".banner_span2").click(function(){
+            if(n>0){
+            n=n-1;}
+            else{n=$(".bannerbox img").length-1;}
+            
+            //document.title=n;
+            $(".bannerbox img").hide().eq(n).show();
+            })
+        
+        
+        </script>
+       
+		
+          
+        </div>
+    	<div class="index_banner_right">
+        	<p style="font-size:20px; color:#fff; margin-top:20px; margin-left:20px;">绿宝宝在做什么？</p>
+            <p style="font-size:12px; color:#fff; margin-top:4px; margin-left:20px; width:200px; line-height:18px; text-align:justify;">绿宝宝园艺，主营绿植租赁、零售、私人园艺定制的全方位绿植服务公司</p>
+            <div class="banner_right_three">
+            	<div class="banner_right_three_1">植物租赁</div><div class="banner_right_three_2">家庭园艺</div><div class="banner_right_three_3">私人定制</div>
+            </div>
+        </div>
+           
+   </div>
+   <p class="clear"></p> 
+</div>
+
+<div class="index_main">    
+    <div class="index_part1">
+        <div class="title_box"><span class="big_title">植物租赁</span><span class="small_title">已有1205家知名企业选择绿宝宝  绿色让生活更美好 </span><a class="title_more" href="#">更多 ></a></div>	
+        <p class="clear height30"></p>
+    
+        <div style=" background-color:#fff; overflow:hidden;">
+        	<div class="part1_left">
+            	<div >
+                	<div class="part1_left_brief">
+                    	<p class="part1_left_brief_1">租赁百分百核心理念</p>
+                        <p class="part1_left_brief_2">10%绿植+20%花盆+30%创意+40%服务</p>
+                        <p class="part1_left_brief_3">我们的使命，是在环境问题日益凸显的现今社会，为人
+们便捷提供绿植花卉园艺等服务。</p>
+                    </div>
+                    <div class="flash_imgbox_1">
+                    	<img  class="part1_left_img1 " src="images/part1_left_1.jpg" />
+                        <div class="summary">
+                            <div class="summarytxt">
+                                <p>安徽广行</p>
+                            </div>
+				        </div>
+                    </div>
+                </div>
+                <p class="clear" style="height:24px;"></p>
+                <div>
+                	<div  class="flash_imgbox_2">
+                    	<img class="part1_left_img2" src="images/part1_left_2.jpg" />
+                        <div class="summary_2">
+                            <div class="summarytxt">
+                                <p>安徽网新</p>
+                            </div>
+				        </div>
+                    </div>
+                     <div  class="flash_imgbox_3">
+                     	<img class="part1_left_img3" src="images/part1_left_3.jpg"  />
+                        <div class="summary_3">
+                            <div class="summarytxt">
+                                <p>安徽广行</p>
+                            </div>
+				        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="part1_right">
+            	<img src="images/part1_right.jpg"  />
+                <div class="summary_4">
+                            <div class="summarytxt">
+                                <p>安徽广行</p>
+                            </div>
+				        </div>
+            </div>
+        </div>
+        <p class="clear height30" style=" background-color:#fff;"></p>
+        <div class="logo_eight" style=" background-color:#fff; overflow:hidden;">
+        	<div><img src="images/eight_logo_1.jpg" /><p>中国银联</p></div>
+            <div><img src="images/eight_logo_2.jpg" /><p>安徽广行</p></div>
+            <div><img src="images/eight_logo_3.jpg" /><p>百度网新</p></div>
+            <div><img src="images/eight_logo_4.jpg" /><p>宝利丰</p></div>
+            <div><img src="images/eight_logo_5.jpg" /><p>华为科技</p></div>
+            <div><img src="images/eight_logo_6.jpg" /><p>加多宝</p></div>
+            <div><img src="images/eight_logo_7.jpg" /><p>国祯集团</p></div>
+            <div><img src="images/eight_logo_8.jpg" /><p>加入绿色阵营</p></div>
+        </div>
+    </div>
+    
+    <p class="height50 clear"></p>
+    <div class="index_part2">
+        <div class="title_box"><span class="big_title">家庭园艺</span><span class="small_title">用专业的技术与服务，将绿色带进每一个人的生活空间！</span><a class="title_more" href="#">更多 ></a></div>	
+        <p class="height30"></p>
+        <div class="part2_up" style=" background:#fff; overflow:hidden;">
+        	<div  class="part2_up_left"><img src="images/part2_up.jpg" /></div>
+            <div  class="part2_up_right"> 
+            	<p style="height:16px;"></p>
+            	<div class="part2_up_right_title"><p class="part2_up_right_title1">你是否也遇到以下问题？</p><p class="part2_up_right_title2">小宝解惑</p></div>
+                <p class="clear height40"></p>
+                <div  class="part2_up_right_three clear">
+                	<div   class="flash_imgbox_5">
+                    	<img src="images/part2_up_small_1.jpg" />
+                        <div class="summary_5">
+                            <div class="summarytxt">
+                                <p>甲醛/苯......</p>
+                                <p>隐形杀手正在入侵你的健康</p>
+                            </div>
+				        </div>
+                    </div>
+                    <div   class="flash_imgbox_5">
+                    	<img src="images/part2_up_small_2.jpg" />
+                        <div class="summary_5">
+                            <div class="summarytxt">
+                                <p>搬着大型绿植上楼！</p>
+                                <p>感觉整个人都不好了......</p>
+                            </div>
+				        </div>
+                    </div>
+                    <div   class="flash_imgbox_5">
+                    	<img src="images/part2_up_small_3.jpg" />
+                        <div class="summary_5">
+                            <div class="summarytxt">
+                                <p>家里植物已阵亡 空盆怎么办</p>
+                                <p>丢还是不丢？</p>
+                            </div>
+				        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="clear height20"  style=" background:#fff; overflow:hidden;"></p>
+        <div class="part2_down"  style=" background:#fff; overflow:hidden;">
+        	<div class="part2_down_left"><img src="images/part2_down_left.png" /></div>
+            <div class="part2_down_right"> 
+            	<p class="height20"></p>
+            	<ul>
+                	<li><img src="images/part2_down_right_1.jpg" /><a href="#">【客厅】发财树到新家啦</a></li>
+                    <li><img src="images/part2_down_right_2.jpg" /><a href="#">【客厅】发财树到新家啦</a></li>
+                    <li><img src="images/part2_down_right_3.jpg" /><a href="#">【客厅】发财树到新家啦</a></li>
+                    <li><img src="images/part2_down_right_4.jpg" /><a href="#">【客厅】发财树到新家啦</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <p class="clear height50"></p>
+    <div class="index_part3">
+    	 <div class="title_box"><span class="big_title">私人定制</span><span class="small_title">专属私人绿植定制  尊享品味绿色空间</span><a class="title_more" href="#">更多 ></a></div>
+         <p class="height30"></p>
+         <div class="index_part3_up">
+         	<div  class="index_part3_up_left">
+              <a href="#">
+            	<p class="height30"></p>
+                <div  class="part3_up_left_box">
+                	<div class="part3_up_left_logo"><p class="part3_up_cn">私人花园</p><p  class="part3_up_en">Private Garden </p></div>
+                    <a  class="part3_up_left_text" href="#">私人花园文案待定，绿泽花艺秉承时尚、 环保、 简约的设计理念，以卓越品质和
+完善的服务，已成为众多知名品牌、 更多>></a>
+                </div>
+              </a>
+            </div>
+            <div  class="index_part3_up_middle">
+               <a href="#">
+            	<p class="height30"></p>
+            	<div  class="part3_up_middle_logo"><p  class="part3_up_cn">情景定制</p><p class="part3_up_en">Scene Custom  </p></div>
+               </a>
+            </div>
+            <div  class="index_part3_up_right">
+               <a href="#">
+            	<p class="height30"></p>
+            	<div  class="part3_up_right_logo"><p  class="part3_up_cn">节日摆花</p><p class="part3_up_en">Flowers Festival </p></div>
+              </a>
+            </div>
+         </div>
+         <p class="clear height20"></p>
+         <div class="index_part3_down">
+         	<ul class="index_part3_down_ul">
+            	<li class="onoffon"><a href="#"><img class="designer" src="images/design_head.png" /><span class="design_name">资深设计师：王瑞晨</span></a></li>
+                <li><a href="#"><img class="designer" src="images/design_head.png" /><span class="design_name">资深设计师：王瑞晨</span></a></li>
+                <li><a href="#"><img class="designer" src="images/design_head.png" /><span class="design_name">资深设计师：王瑞晨</span></a></li>
+                <li><a href="#"><img class="designer" src="images/design_head.png" /><span class="design_name">资深设计师：王瑞晨</span></a></li>
+            </ul>
+            <p class="p_yyy"></p>
+         </div>
+   <style>
+   .index_part3_down{ position:relative; overflow:hidden; background:#fff; width:1200px; margin:0 auto; height:280px; border-bottom: 2px solid #e5e5e5;padding-bottom: 3px;}
+.index_part3_down_ul{ /*position:absolute; top:0px; left:0;*/}
+.index_part3_down_ul li{/* float:left; width:300px; height:225px; text-align:center; font-size:20px; color:#01af63; padding-top:200px;*/}
+.title_rent-list li:hover{ cursor:pointer;}
+.index_part3_down .p_yyy{position:absolute;top:280px;left:0px;width:295px;height:7px;border-top:3px solid #01af63;overflow:hidden;}
+   
+   </style>      
+         <script>
+			$(function(){	
+				$('.index_part3_down ul li').mouseover(function(){
+					var liindex = $('.index_part3_down ul li').index(this);
+					$(this).addClass('onoffon').siblings().removeClass('onoffon');
+					/*$('.rent_product-wrap div.rent_product').eq(liindex).fadeIn(150).siblings('div.rent_product').hide();*/
+					var liWidth = $('.index_part3_down ul li').width();
+					$('.index_part3_down .p_yyy').stop(false,true).animate({'left' : liindex * 300 + 'px'},300);
+					/*$('.index_part3_down_ul b').stop(false,true).animate({'left' : liindex * liWidth + 'px'},300);*/
+				});
+			});
+
+         </script>     
+         
+         
+    </div>
+    <p class="clear height50"></p>
+    <div class="index_part4">
+    	<div class="title_box"><span class="big_title">绿植商城</span><span class="small_title">一盆绿植，一点健康！绿宝宝打造健康绿色空间</span><a class="title_more" href="#">更多 ></a></div>
+        <p class="clear height30"></p>
+        <div  class="index_part4_three" style=" background:#fff; overflow:hidden;">
+        	<div  class="index_part4_left">
+            	<div class="ads"></div>
+                <div class="list">
+                	<ul>
+                    	<li><p  class="list_big"><a href="#">观赏性</a><span>></span></p><p class="clear"></p><p class="list_small"><a href="#">观叶类</a><a href="#">观叶类</a><a href="#">观叶类</a><a href="#">观叶类</a></p></li>
+                        <li><p class="list_big"><a href="#">区域</a><span>></span></p><p class="clear"></p><p class="list_small"><a href="#">公司</a><a href="#">公司</a><a href="#">公司</a><a href="#">公司</a><a href="#">公司</a></p></li>
+                        <li><p class="list_big"><a href="#">功能</a><span>></span></p><p class="clear"></p><p class="list_small"><a href="#">吸甲醛</a><a href="#">吸甲醛</a><a href="#">吸甲醛</a><a href="#">吸甲醛</a><a href="#">吸甲醛</a><a href="#">吸甲醛</a></p></li>
+                    </ul>
+                </div>
+            </div>
+            <div  class="index_part4_middle">
+            	<div  class="example">  
+                    <ol >
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                    </ol>
+                    <ul >
+                      <li><a href="javascript:;"><img src="images/index_part4_mlddle.jpg" width="355" height="480"></a></li>
+                      <li><a href="javascript:;"><img src="images/index_part4_mlddle.jpg" width="355" height="480"></a></li>
+                      <li><a href="javascript:;"><img src="images/index_part4_mlddle.jpg" width="355" height="480"></a></li>
+                   
+                    </ul>
+                 </div>
+                 <script>
+					$(function(){
+						<!--调用Luara示例-->
+						$(".example").luara({width:"355",height:"480",interval:3000,selected:"seleted"});
+				
+					});
+					</script>
+                    
+                    <script>jQuery.fn.extend({luara:function(a){function s(){var a;switch(j){case"top":a=h;break;case"left":a=h*g;break;default:a=h}return a}function t(){var a=b.find("img").eq(0),c={};return c.width=a.width(),c.height=a.height(),c}function u(b){var b=b||a.speed||l/6;return b>l?b=l:l>b&&0>b&&(b=arguments.callee(-b)),b}function v(){q=setTimeout(function(){o++,e.eq(o-1).removeClass(n),o==g&&(o=0),r(),e.eq(o).addClass(n),v()},l)}var q,r,b=$(this).eq(0),c=$(this).find("ul").eq(0),d=c.find("li"),e=$(this).find("ol").eq(0).find("li"),f=b.find("img"),g=f.length,a=a||{},h=a.width||t().width,i=a.height||t().height,j=a.deriction||"",k="luara-"+j,l=(a.interval>0?a.interval:-a.interval)||3e3,m=u(),n=a.selected,o=0;b.width(h).height(i).addClass(k),c.width(s(j)).height(i),d.width(h).height(i),e.eq(0).addClass(n),function(){s=null,t=null,u=null}(),r=function(){switch(j){case"top":return function(){c.animate({top:-i*o+"px"},m)};case"left":return function(){c.animate({left:-h*o+"px"},m)};default:return function(){d.hide().eq(o).fadeIn(m)}}}(),e.mouseover(function(){e.eq(o).removeClass(n),o=e.index($(this)),$(this).addClass(n),r()}),b.mouseenter(function(){clearTimeout(q)}).mouseleave(function(){v()}),v()}});// JavaScript Document
+
+
+
+
+</script>
+                <!--<img src="images/index_part4_mlddle.jpg" />-->
+            </div>
+            <div  class="index_part4_right">
+            	<ul  class="index_part4_right_ul">
+                	<li><a href="#"><img src="images/plants.jpg" /><p class="p1">青叶碧玉办公室盆栽吸甲醛 电脑宝贝豆瓣...</p><p class="p2">￥205.00</p></a></li>
+                    <li><a href="#"><img src="images/plants.jpg" /><p  class="p1">青叶碧玉办公室盆栽吸甲醛 电脑宝贝豆瓣...</p><p class="p2">￥205.00</p></a></li>
+                    <li><a href="#"><img src="images/plants.jpg" /><p class="p1">青叶碧玉办公室盆栽吸甲醛 电脑宝贝豆瓣...</p><p class="p2">￥205.00</p></a></li>
+                    <li><a href="#"><img src="images/plants.jpg" /><p class="p1">青叶碧玉办公室盆栽吸甲醛 电脑宝贝豆瓣...</p><p class="p2">￥205.00</p></a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+    <p class="clear height50"></p>
+    <div class="index_part5">
+    	<div class="title_box"><span class="big_title">植物学堂</span><span class="small_title">用专业的技术与服务，将绿色带进每一个人的生活空间！ </span><a class="title_more" href="#">更多 ></a></div>
+        <p class="clear height30"></p>
+        <div class="part5_down" style=" background:#fff; overflow:hidden;">
+        	<div class="part5_down_left"><img src="images/part5_down_left.png" /></div>
+            <div class="part5_down_right"> 
+            	<p class="height20"></p>
+            	<ul>
+                	<li><img src="images/part5_down_right_1.jpg" /></li>
+                    <li>
+                    	<div class="part5_down_three">
+                        	<p>植物养护</p>
+                            <a href="#">养护标题：高花盆种花的优劣势分...</a>
+                            <a href="#">养护标题：高花盆种花的优劣势分...</a>
+                            <a href="#">养护标题：高花盆种花的优劣势分...</a>
+                            <a href="#">养护标题：高花盆种花的优劣势分...</a>
+                            <a href="#">养护标题：高花盆种花的优劣势分...</a>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="part5_down_three">
+                        	<p>植物风水</p>
+                            <a href="#">养护标题：高花盆种花的优劣势分...</a>
+                            <a href="#">养护标题：高花盆种花的优劣势分...</a>
+                            <a href="#">养护标题：高花盆种花的优劣势分...</a>
+                            <a href="#">养护标题：高花盆种花的优劣势分...</a>
+                            <a href="#">养护标题：高花盆种花的优劣势分...</a>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="part5_down_three">
+                        	<p>植物杂谈</p>
+                            <a href="#">养护标题：高花盆种花的优劣势分...</a>
+                            <a href="#">养护标题：高花盆种花的优劣势分...</a>
+                            <a href="#">养护标题：高花盆种花的优劣势分...</a>
+                            <a href="#">养护标题：高花盆种花的优劣势分...</a>
+                            <a href="#">养护标题：高花盆种花的优劣势分...</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>	
+    </div>
+</div>
+<p class="height50"></p>
+
+<div class="footer_bar">
+	<p class="height50"></p>
+	<div class="footer">
+    	<div class="footer_left">
+        	<div class="footer_title">绿宝宝园艺</div>
+            <p class="footer_title_line"></p>
+            <p class="footer_title_brief">合肥绿宝宝景观园林工程有限公司业务已全面涵盖园艺花艺两大行业，其中，绿植租赁、家庭
+园艺、家庭花艺、婚庆花艺为公司的主打业务。
+</p>
+            <div class="four_midea"><a class="footer_qq" href="#"></a><a class="footer_wx" href="#"></a><a class="footer_xl" href="#"></a><a class="footer_tx" href="#"></a></div>
+        </div>
+        <div class="footer_middle">
+        	<div class="footer_title">关注微信 </div>
+            <p class="footer_title_line"></p>
+            <div class="big_wx"><img src="images/big_wx.jpg" /></div>
+        </div>
+        <div class="footer_right">
+        	<div class="footer_title">联系我们</div>
+            <p class="footer_title_line"></p>
+            <p class="footer_number">400-0551-410</p>
+            <p class="footer_number_brief">（24小时免费咨询热线）</p>
+            <p class="footer_ardress">合肥市蜀山区拓基广场c座2805</p>
+            <p class="footer_email">gupiaoa@163.com</p>
+        </div>
+    </div>
+    <p class="height80 clear"></p>
+    <div class="friend_link">
+         <div class="friend_link_box">   
+            <p class="fri">友情链接：<a href="#">安企金融</a> <a href="#">第一网贷资讯</a><a href="#">网贷动态</a><a href="#">中信银行信用卡</a><a href="#">安徽省策划协会</a><a href="#">贵金属交易</a><a href="#">互联网金融媒体</a>       </p>
+            <p class="copyright">Copyright © 2009-2012 绿泽集团 All Rights Reserved  </p>
+         </div>
+    </div>
+</div>
+
+
+<div class="floating_ck">
+	<dl>
+    	<dt></dt>
+        <dd class="consult">
+        	<div class="floating_left"><a href="#">在线咨询</a></div>
+        </dd>
+        <dd class="words">
+            <div class="floating_left"><a href="#">预约设计</a></div>
+        </dd>
+        <dd class="quote">
+        	<span>关注微信</span>
+            <div class="floating_left"><a href="#">关注微信</a></div>
+        </dd>
+        <dd class="return">
+        	<span onClick="gotoTop();return false;"></span>
+            <div class="floating_left" onClick="gotoTop();return false;"><a href="#">返回顶部</a></div>
+        </dd>
+    </dl>
+</div>
+
+<script type="text/javascript">
+	$(window).scroll(function(){
+   var topH = $(window).scrollTop()+($(window).height()/2);
+ 
+    if(topH>0){
+		$(".banner").animate({"opacity":"1"},1000);
+			
+		}
+	
+});
+
+</script>
+
+<script>
+
+$( function() { 
+    var inputEl = $('#text_clear'), 
+        defVal = inputEl.val(); 
+    inputEl.bind({ 
+        focus: function() { 
+            var _this = $( this); 
+            if (_this.val() == defVal) { 
+                _this.val(''); 
+            } 
+        }, 
+        blur: function() { 
+            var _this = $( this); 
+            if (_this.val() == '') { 
+                _this.val(defVal); 
+            } 
+        } 
+    }); 
+})
+
+
+
+</script>
+
+</body>
+</html>
